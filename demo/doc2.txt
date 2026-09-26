@@ -1,0 +1,10 @@
+#block outer
+外层内容
+#block inner
+内层内容
+#ref outer
+#endblock inner
+#endblock outer
+#block other
+别的块
+#endblock other

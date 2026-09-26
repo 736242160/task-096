@@ -1,0 +1,14 @@
+文档开头
+#block intro
+引言内容
+#block detail
+细节内容
+#ref intro
+#endblock detail
+#endblock intro
+#block appendix
+附录内容
+#ref detail
+#endblock appendix
+#block broken
+未闭合块内容

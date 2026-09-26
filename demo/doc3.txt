@@ -1,0 +1,7 @@
+#block a
+内容
+#endblock b
+#endblock
+#block a
+重复
+#endblock a

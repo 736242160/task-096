@@ -1,0 +1,10 @@
+# 把 detail 从 intro 中移出，放到 appendix 之后（顶层）
+move detail after appendix
+# 把 appendix 移入 detail（嵌套关系改变；appendix 内的 #ref detail 仍绑定）
+move appendix into detail
+# 非法：目标在块内部
+move detail into appendix
+# 不存在的块
+move ghost after intro
+# 把 detail 移回 intro 内部（appendix 里的 #ref detail 仍合法，因 detail 是其祖先）
+move detail into intro
