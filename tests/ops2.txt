@@ -1,0 +1,10 @@
+# 非法目标：b 是 a 的后代
+move a into b
+# 非法目标：自身
+move a after a
+# 绑定保持：a 连同子树 b/@ref a 一起移到 c 之后，引用不应悬空
+move a after c
+# 同父向前移动（检验插入下标修正）：y 移到 x 之前
+move y before x
+# 目标不存在
+move x before nosuch

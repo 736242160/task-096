@@ -1,0 +1,22 @@
+前言
+@block intro
+介绍内容
+@end intro
+@block main
+主体开始
+@block util
+工具函数
+@end util
+@ref util
+@block detail
+细节内容
+@ref intro
+@end detail
+主体结束
+@end main
+@block appendix
+附录内容
+@ref detail
+@end appendix
+@block broken
+这个块没有闭合

@@ -1,0 +1,20 @@
+@block a
+@block b
+@ref a
+@end b
+@end a
+@block c
+@ref b
+@end c
+@block x
+x1
+@end x
+@block y
+y1
+@end y
+@block dup
+d1
+@end dup
+@block dup
+d2
+@end wrongname

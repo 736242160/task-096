@@ -1,0 +1,11 @@
+===== 移动历史 =====
+  [OK ] 操作 1: move appendix to-start  --  块 'appendix': 第 17 行 -> 第 1 行
+  [OK ] 操作 2: move detail after intro  --  块 'detail': 第 15 行 -> 第 9 行
+  [OK ] 操作 3: move main into detail  --  块 'main': 第 13 行 -> 第 12 行
+  [失败] 操作 4: move ghost to-end  --  引用了不存在的块 'ghost'
+  [OK ] 操作 5: move util to-end  --  块 'util': 第 14 行 -> 第 20 行
+===== 错误报告 =====
+  [错误] 块 'broken' 未闭合: 起始于第 21 行
+  [错误] 操作 4 ('move ghost to-end'): 引用了不存在的块 'ghost'
+  [错误] 第 3 行: 悬空引用 '@ref detail'（引用已移出块 'detail' 的定义范围，或该块不存在）
+  [错误] 第 14 行: 悬空引用 '@ref util'（引用已移出块 'util' 的定义范围，或该块不存在）

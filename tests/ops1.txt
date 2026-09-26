@@ -1,0 +1,10 @@
+# 正常移动：appendix 提到最前
+move appendix to-start
+# 嵌套改变：detail 移出 main，放到 intro 后面
+move detail after intro
+# 非法目标：main 移进自己的后代 detail
+move main into detail
+# 不存在的块
+move ghost to-end
+# 悬空引用：util 移出 main，main 里的 @ref util 将悬空
+move util to-end
